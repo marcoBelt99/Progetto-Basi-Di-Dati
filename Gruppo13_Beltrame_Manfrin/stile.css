@@ -1,0 +1,316 @@
+  #conteiner
+  {
+  min-height:1300px;
+  height: auto ;
+	width: 1260px;
+	margin: 0 auto;
+  padding: 0;
+  
+  }
+  
+  p {
+    font-family:  'Arial';
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  label {
+    text-align: right;
+    font-family: 'Arial';
+  }
+
+  input {
+    width: 160px;
+    position:relative
+  } 
+
+  fieldset {
+    border: none;
+    display: table-row;
+  }
+
+ 
+  body {
+    font-family: 'Arial';
+    text-align: center;
+    height: 100%;
+    background-color: rgb(174, 215, 240);
+    background-size:cover;
+    
+  }
+
+  header {
+    position:relative;
+    height: 100%;
+  }
+
+  #graphic {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse
+  }
+  
+  form {
+    font-family: 'Arial';
+    display: table; 
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    max-width: 600px;  
+    max-height: 600px;
+    height: 100%;
+    width: 100%;
+    margin: 25px auto;
+    background: #0854b8;
+    padding: 0px;
+    overflow: hidden;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 100px rgba(0,0,0,0.5); 
+  }
+
+  .table-box /* classe che richiamo nel div dentro il body. A sua volta questo div conterrà la <table>*/
+{
+  margin-left: auto;
+  margin-right: auto;
+	width: auto;
+	height: 600px;
+  background: #fff;
+  box-shadow: 0 10px 100px rgba(0,0,0,0.5); /* Do anche l'ombreggiatura */
+	
+} 
+
+  #table-center tr:hover td{
+    background:rgb(92, 183, 240)
+  }
+
+  #table-center td {
+	  border: 1px solid #005277;
+	  padding:8px;
+    background-color: #fff;
+    text-align: left;
+    width: auto;
+	}	
+
+  #table-center th {
+    border: 1px solid #005277;
+    position: sticky; /* blocco la prima riga (quella con l'intestazione) */
+    background-color: #0854b8;
+    color: #fff;
+	  box-sizing: border-box;
+	  padding:8px;
+
+	}	
+  #table-center thead { 
+    background-color: #f5f5f500;  
+  } 
+ 
+  #table-center {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Arial';
+    border-collapse: collapse;
+    box-shadow: 0 10px 100px rgba(0,0,0,0.5); /* Do anche l'ombreggiatura */
+	  
+  }   
+
+  #cssmenu {
+    border-radius:0px 0px 15px 15px;
+    background: #0854b8;
+    width: auto;
+    text-align: center;
+    border-radius:'0px 0px 15px 15px';
+  }
+
+  #cssmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
+    zoom: 1;
+  }
+  #cssmenu ul:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  #cssmenu ul li {
+    border-radius:'0px 0px 15px 15px';
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+
+  #menu-a-tendina {
+    display: none;
+    margin: 0px;
+  }
+  
+  #cssmenu ul ul {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  #cssmenu ul li:hover ul{
+    visibility: visible;
+  }
+
+  #cssmenu ul ul li a {
+    background-color: #0854b8;
+    width: 122px;
+
+  }
+  
+  #cssmenu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    -ms-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+  }
+  #cssmenu ul li a:hover {
+    color:#07aefc;
+  }
+
+  #cssmenu ul li.active a {
+    color: #000000;
+  }
+
+  #cssmenu ul li a:hover:before {
+    width: 100%;
+  }
+
+  #cssmenu ul li a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -3px;
+    top: 19px;
+    height: 6px;
+    width: 6px;
+    background: #ffffff;
+    opacity: .5;
+  }
+  #cssmenu ul li a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #07aefc;
+    -webkit-transition: width .25s;
+    -moz-transition: width .25s;
+    -ms-transition: width .25s;
+    -o-transition: width .25s;
+    transition: width .25s;
+    }
+  #cssmenu ul li.last > a:after,
+  #cssmenu ul li:last-child > a:after {
+    display: none;
+  }
+  
+
+footer {
+    
+    height: 60px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+footer .footer-above {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 13px;
+    background: #ffff;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer .footer-col {
+    margin-bottom: 25px;
+}
+
+footer .footer-below {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 13px 0;
+    background: #0854b8;
+    color: white;
+    overflow: hidden;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#cssmenu-footer {
+  border-radius:0px 0px 15px 15px;
+  background: #ffffff;
+  width: auto;
+  text-align: center;
+  border-radius:'0px 0px 15px 15px';
+}
+
+#cssmenu-footer ul li a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+
+#cssmenu-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#cssmenu-footer ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu-footer ul li {
+  border-radius:'0px 0px 15px 15px';
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}

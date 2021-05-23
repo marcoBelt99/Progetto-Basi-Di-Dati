@@ -1,0 +1,9 @@
+*************************************************
+PROGETTO BASI DI DATI MANFRIN - BELTRAME 17/09/2020
+*************************************************
+
+Nel direttorio corrente sono presenti tutti i file sorgenti nel formato '*.php' e 'stile.css' che assicurano il corretto funzionamento dell'applicazione Web.
+I direttori 'Script' ed 'Icons' presenti nel direttorio corrente servono anch'essi al funzionamento dell'applicazione web.
+Il file 'Biblioteca.sql' è il file di dump della base di dati.
+Nel direttorio corrente è inoltre presente il file 'Relazione_Progetto.pdf' che rappresenta la tesina richiesta.
+Nel file 'connessione.php' è necessario cambiare il nome utente e la password di connessione al database.
